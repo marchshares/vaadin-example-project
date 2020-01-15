@@ -43,8 +43,8 @@ public class MainView extends AppLayout {
 
     private static Tab[] getAvailableTabs() {
         final List<Tab> tabs = new ArrayList<>();
-        tabs.add(createTab("Dashboard", DashboardView.class));
-        //tabs.add(createTab("Main", TestView.class));
+//        tabs.add(createTab("Dashboard", DashboardView.class));
+        tabs.add(createTab("Main", TestView.class));
         return tabs.toArray(new Tab[tabs.size()]);
     }
 
