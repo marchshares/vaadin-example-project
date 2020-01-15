@@ -1,1 +1,1 @@
-web: java -jar target/example-project-2.0-SNAPSHOT.jar
+web: java -jar target/example-project-2.0-SNAPSHOT.jar --server.port=$PORT
