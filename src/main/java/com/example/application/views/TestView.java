@@ -22,8 +22,8 @@ import static com.vaadin.flow.component.notification.Notification.Position.BOTTO
  * Designer will add and remove fields with @Id mappings but
  * does not overwrite or otherwise change this file.
  */
-@Route(value = "test", layout = MainView.class)
-@RouteAlias(value = "", layout = MainView.class)
+//@Route(value = "test", layout = MainView.class)
+//@RouteAlias(value = "", layout = MainView.class)
 @PageTitle("Test View")
 @Tag("test-view")
 @JsModule("./src/test-view.js")
