@@ -13,7 +13,6 @@ import com.vaadin.flow.templatemodel.TemplateModel;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
-import javafx.application.Preloader;
 
 import static com.vaadin.flow.component.notification.Notification.Position.BOTTOM_CENTER;
 
