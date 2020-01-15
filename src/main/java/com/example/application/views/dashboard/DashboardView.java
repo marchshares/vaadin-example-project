@@ -50,7 +50,7 @@ public class DashboardView extends Div {
 
         cancel.addClickListener(e -> binder.readBean(null));
         save.addClickListener(e -> {
-            Notification.show("Not implemented");
+            Notification.show("Hello, " + firstname.getValue());
         });
 
         add(wrapper);
