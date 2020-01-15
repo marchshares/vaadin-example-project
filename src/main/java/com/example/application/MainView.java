@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import com.example.application.views.TestView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.HasComponents;
 import com.vaadin.flow.component.dependency.JsModule;
@@ -23,7 +24,6 @@ import com.example.application.views.dashboard.DashboardView;
  * The main view is a top-level placeholder for other views.
  */
 @JsModule("./styles/shared-styles.js")
-@PWA(name = "Example Project", shortName = "Example Project")
 @Theme(value = Lumo.class, variant = Lumo.LIGHT)
 public class MainView extends AppLayout {
 
@@ -44,6 +44,7 @@ public class MainView extends AppLayout {
     private static Tab[] getAvailableTabs() {
         final List<Tab> tabs = new ArrayList<>();
         tabs.add(createTab("Dashboard", DashboardView.class));
+        tabs.add(createTab("Main", TestView.class));
         return tabs.toArray(new Tab[tabs.size()]);
     }
 
